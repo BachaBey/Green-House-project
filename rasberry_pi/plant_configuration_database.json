@@ -1,0 +1,82 @@
+{
+    "greenhouse1": {
+        "sensor": {
+            "temperature": 1,
+            "light": 2,
+            "moisture": 3,
+            "humidity": 4
+        },
+        "actuator":{
+            "ventilator": 101,
+            "irrigation": 102,
+            "cooler": 103,
+            "heater": 104,
+            "humidity_water":105,
+            "led":106
+        }
+    },
+    "greenhouse2": {
+        "sensor": {
+            "temperature": 5,
+            "light": 6,
+            "moisture": 7,
+            "humidity": 8
+        },
+        "actuator":{
+            "ventilator": 107,
+            "irrigation": 108,
+            "cooler": 109,
+            "heater": 110,
+            "humidity_water":111,
+            "led":112
+        }
+    },
+    "greenhouse3": {
+        "sensor": {
+            "temperature": 9,
+            "light": 10,
+            "moisture": 11,
+            "humidity": 12
+        },
+        "actuator":{
+            "ventilator": 113,
+            "irrigation": 114,
+            "cooler": 115,
+            "heater": 116,
+            "humidity_water": 117,
+            "led":118
+        }
+    },
+    "greenhouse4": {
+        "sensor": {
+            "temperature": 13,
+            "light": 14,
+            "moisture": 15,
+            "humidity": 16
+        },
+        "actuator":{
+            "ventilator": 119,
+            "irrigation": 120,
+            "cooler": 121,
+            "heater": 122,
+            "humidity_water":123,
+            "led":124
+        }
+    },
+    "greenhouse5": {
+        "sensor": {
+            "temperature": 17,
+            "light": 18,
+            "moisture": 19,
+            "humidity": 20
+        },
+        "actuator":{
+            "ventilator": 125,
+            "irrigation": 126,
+            "cooler": 127,
+            "heater": 128,
+            "humidity_water":129,
+            "led":130
+        }
+    }
+}

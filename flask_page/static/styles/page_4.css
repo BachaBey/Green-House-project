@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+
+.top{
+    background: linear-gradient(to right,#8bc743, #0bb294);
+    width:100%;
+    border-radius: 0 0 15% 15%;
+    align-items: center;
+    text-align: center;
+}
+
+.text{
+    font-size: 4.5vw;
+    color: white;
+}
+
+.input{
+    width:50vh;
+    height: 6vh;
+    border-radius: 5vw;
+    border: 0;
+    font-size: 25px;
+    padding-left: 20px;
+    color: (153, 152, 152, 1);
+}
+
+.search{
+    background-color: rgba(153, 152, 152, 1);
+    color: white;
+    border: 0;
+    width: 16vh;
+    height: 7vh;
+    font-size: 4vh;
+    border-radius: 5vw;
+    font-family: "Crimson Text", serif;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.search:hover{
+    background-color: rgb(102, 102, 102);   
+}
+
+.search_input{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.infos_percents{
+    position: fixed;
+    display: flex;
+    gap: 7vw;
+}
+
+.infos{
+    margin-left: 20vw;
+    line-height: 10vh;
+    margin-top: 2vh;
+   
+}
+
+.info{
+    font-size: 6vh;
+    font-family: "Crimson Text", serif;
+    color: rgba(59, 186, 118, 1);
+    font-weight: 510;
+}
+
+.percents_input{
+    font-size: 3vh;
+    height: 5vh;
+    width: 15vh;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.use{
+    font-size: 5vh;
+    font-family: "Crimson Text", serif;
+    background-color: rgba(59, 186, 118, 1);
+    color: white;
+    width: 18vh;
+    height: 8vh;
+    border: 0;
+    border-radius: 5vw;
+    cursor:pointer;
+    position: fixed;
+    bottom: 2vh;
+    right: 3vh;
+}
+.use:hover{
+    background-color: rgb(41, 131, 83) ;
+}
+.slide{  
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    transition: 0.5s ease;
+    transform: translateX(-400px);
+    border-radius: 0 60px 60px 0;
+    z-index: 2;
+  }
+h1{margin-top: 80px;
+pointer-events: none;
+margin-bottom: 30px;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    margin-top: 15px;
+    }
+ul li a{
+color: rgba(67, 159, 71, 1);
+font-size: 40px;
+font-family: "Crimson Text", serif;
+font-weight: 500;
+line-height: 70px;
+padding: 5px 40px;
+display: block;
+text-decoration: none;
+transition: 0.2s ease-out;
+}
+
+ul li a img{
+width: 30px;
+height: 30px;
+margin-right: 10px;
+text-align: center;
+}
+.side_bar{
+display: none;
+}
+.toggle .icon_white_nav_bar{
+position: absolute;
+height: 50px;
+width: 50px;
+top: 10px;
+left: 20px;
+cursor: pointer;
+z-index: 2;
+}
+.side_bar:checked ~ .slide{
+transform: translateX(0);
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+background-color: white;
+}
+.side_bar:checked ~ .icon_green_nav_bar{
+z-index: 3;
+
+}
+.icon_green_nav_bar{
+position: fixed;
+height: 50px;
+width: 50px;
+top: 10px;
+left: 20px;
+cursor: pointer;
+z-index: 1;
+}
+
+

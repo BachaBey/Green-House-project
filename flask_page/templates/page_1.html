@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/page_1.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGreen</title>
+</head>
+
+<body>
+    <div class="left-side">
+       <div class="title"> 
+        <p>Welcome</p>
+        <p >to</p>
+        <p>SmartGreen</p>
+       </div>
+
+       <div class="btn">
+            <button class="sign-up">Sign up</button>
+       </div>
+    </div>
+    <div class="right-side">
+        <div class="sign-in">
+            <div><p class="sign">Sign in</p></div>
+            <div >
+                <input type="email"  placeholder="Email" class="input"><br>
+                <input type="password" placeholder="Password" class="input">
+            </div>
+
+            <div >
+                <a href="{{ url_for('home') }}"><button class="sign-in-btn" >Sign in</button></a>
+            </div>
+        </div>
+        <div class="pass" ><a href="#">Forgot password</a></div>
+    </div>
+</body>
+</html>

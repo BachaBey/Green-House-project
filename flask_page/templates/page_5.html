@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/page_5.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGreen</title>
+</head>
+<body>
+
+    <label for="menu-toggle" >
+        <input type="checkbox" class="side_bar" id="menu-toggle">
+        <div class="toggle">
+        <img src="{{ url_for('static', filename='images/building/menu_white_icon.png')}}" alt="menu icon" class="icon_white_nav_bar">
+        </div>
+
+        <img src="{{ url_for('static', filename='images/building/menu_green_icon.png')}}" alt="menu icon" class="icon_green_nav_bar">
+        <div class="slide">
+        <h1></h1>
+        <ul>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/building/account_icon.png')}}" class="icon">Account</a></li>
+            <li><a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/building/home_icon.png')}}" class="icon">Home</a></li>
+            <li><a href="{{ url_for('add_plant_page') }}"><img src="{{ url_for('static', filename='images/building/add_icon.png')}}" class="icon">Add Plant</a></li>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/building/past_plant_icon.png')}}" class="icon">Past Plant</a></li>
+    
+        </ul>
+        </div>
+    </label>
+
+    <div class="top">
+        <label class="text">What plant do you want to delete</label>
+        <div class="delete_input">
+            <form action="/delete" method="POST" id="name-form"> <input type="text" class="input" id="plant_name_input" name="plant name" placeholder="Plant name" value="{{name}}">
+                <button class="delete">Delete</button>
+            </form>
+        </div>  
+    </div>
+
+    <div class="message">
+        <p>{{message}}</p>
+    </div>
+</body>
+</html>

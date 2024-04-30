@@ -1,0 +1,206 @@
+{
+    "tomato": {
+        "2024-04-23 18:33:27": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:33:37": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:35:04": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:25": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:35": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:45": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:55": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:05": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:15": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:25": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:35": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        }
+    },
+    "lettuce": {
+        "2024-04-23 18:33:27": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:33:37": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:35:04": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:25": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:35": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:45": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:55": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:05": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:15": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:25": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:35": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        }
+    },
+    "potato": {
+        "2024-04-23 18:33:27": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:33:37": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:35:04": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:25": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:35": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:45": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:50:55": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:05": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:15": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:25": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        },
+        "2024-04-23 18:51:35": {
+            "temperature": 0,
+            "illumination": 10000,
+            "moisture": 2135,
+            "humidity": 2
+        }
+    }
+}

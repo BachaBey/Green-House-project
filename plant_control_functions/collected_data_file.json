@@ -1,0 +1,184 @@
+{
+    "potato": {
+        "2024-04-10 01:51:18": {
+            "temperature": 20,
+            "illumination": 12,
+            "moisture": 70,
+            "humidity": 60
+        },
+        "2024-04-10 01:51:23": {
+            "temperature": 21,
+            "illumination": 11,
+            "moisture": 80,
+            "humidity": 66
+        },
+        "2024-04-10 01:51:28": {
+            "temperature": 20.5,
+            "illumination": 10,
+            "moisture": 75,
+            "humidity": 59
+        },
+        "2024-04-10 01:51:33": {
+            "temperature": 22,
+            "illumination": 13,
+            "moisture": 82,
+            "humidity": 64
+        },
+        "2024-04-12 01:35:57": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:02": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:07": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:12": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:17": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:22": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:27": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:32": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:37": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:42": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:47": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:36:52": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        }
+    },
+    "tomato": {
+        "2024-04-10 01:51:18": {
+            "temperature": 30,
+            "illumination": 25,
+            "moisture": 90,
+            "humidity": 40
+        },
+        "2024-04-10 01:51:23": {
+            "temperature": 32,
+            "illumination": 31,
+            "moisture": 95,
+            "humidity": 46
+        },
+        "2024-04-10 01:51:28": {
+            "temperature": 25.5,
+            "illumination": 30,
+            "moisture": 75,
+            "humidity": 59
+        },
+        "2024-04-10 01:51:33": {
+            "temperature": 35,
+            "illumination": 18,
+            "moisture": 60,
+            "humidity": 24
+        }
+    },
+    "lettuce": {
+        "2024-04-10 01:51:18": {
+            "temperature": 17,
+            "illumination": 23,
+            "moisture": 55,
+            "humidity": 33
+        },
+        "2024-04-10 01:51:23": {
+            "temperature": 12,
+            "illumination": 22,
+            "moisture": 65,
+            "humidity": 32
+        },
+        "2024-04-10 01:51:28": {
+            "temperature": 15,
+            "illumination": 24,
+            "moisture": 75,
+            "humidity": 55
+        },
+        "2024-04-10 01:51:33": {
+            "temperature": 18,
+            "illumination": 20,
+            "moisture": 92,
+            "humidity": 34
+        }
+    },
+    "carrot": {
+        "2024-04-12 01:34:00": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:34:05": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:34:10": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:34:15": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        },
+        "2024-04-12 01:34:20": {
+            "temperature": 0,
+            "illumination": 12,
+            "moisture": 215,
+            "humidity": 2
+        }
+    }
+}

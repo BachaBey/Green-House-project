@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/page_3.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGreen</title>
+</head>
+<body>
+
+    <label for="menu-toggle" >
+        <input type="checkbox" class="side_bar" id="menu-toggle">
+        <div class="toggle">
+        <img src="{{ url_for('static', filename='images/building/menu_white_icon.png')}}" alt="menu icon" class="icon_white_nav_bar">
+        </div>
+
+        <img src="{{ url_for('static', filename='images/building/menu_green_icon.png')}}" alt="menu icon" class="icon_green_nav_bar">
+        <div class="slide">
+        <h1></h1>
+        <ul>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/building/account_icon.png')}}" class="icon">Account</a></li>
+            <li><a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/building/home_icon.png')}}" class="icon">Home</a></li>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/building/past_plant_icon.png')}}" class="icon">Past Plants</a></li>
+            <li><a href="{{ url_for('delete_plant_page') }}"><img src="{{ url_for('static', filename='images/building/delete_icon.png')}}" class="icon">Delete Plant</a></li>
+    
+        </ul>
+        </div>
+    </label>
+
+    <div class="top">
+        <label class="text">What plant do you want to grow</label>
+        <div class="search-input">
+            <form action="/page_3" method="POST" id="name-form"> <input type="text" class="input" name="plant name" id="plant_name_input" placeholder="Plant name" value="{{name}}">
+                <button class="search">Search</button>
+            </form>
+        </div>  
+    </div>
+    <form action="/save_data_page3" method="POST">
+        {% if test_existance==True %}
+            <div class="infos-percents">
+                <div class="infos">
+                    <p class="info">Light:</p>
+                    <p class="info">Moisture:</p>
+                    <p class="info">Humidity:</p>
+                    <p class="info">Temperature:</p>
+                    <p class="info">Greenhouse Number:</p>
+                </div>
+
+                <div class="percents">
+                    <p id="illumination_percent">{{light_value}}</p>
+                    <p id="moisture_percent">{{moisture_value}}</p>
+                    <p id="humidity_percent">{{humidity_value}}</p>
+                    <p id="temperature_percent">{{temperature_value}}</p>
+                    <input class="space-input" name="greenhouse_input" type="text" placeholder={{greenhouse}}>
+                </div> 
+            </div>
+        {% else %}
+        <div>
+            <p class="message_error">{{message}}</p>
+        </div>
+        {% endif %}
+        <div class="use-add">
+            <a href="{{ url_for('add_own_page') }}" class="add">Add your own</a>
+            <button class="use">Use</button>
+        </div>
+    </form>
+
+</body>
+</html>

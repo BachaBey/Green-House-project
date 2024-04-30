@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/page_2.css') }}">
+    <title>SmartGreen</title>
+    <script>
+      function refreshPage() {
+        location.reload(); // Reload the current page
+      }
+    
+      setInterval(refreshPage, 1000*15); // Call refreshPage every 5 seconds (5000 milliseconds)
+    </script>
+    
+</head>
+
+<body>
+  
+  <label for="menu-toggle" >
+    <input type="checkbox" class="side_bar" id="menu-toggle">
+    <div class="toggle">
+      <img src="{{ url_for('static', filename='images/building/menu_green_icon.png')}}" alt="menu icon" class="icon_nav_bar">
+    </div>
+
+    <div class="slide">
+      <h1></h1>
+      <ul>
+        <li><a href="#"><img src="{{ url_for('static', filename='images/building/account_icon.png')}}" class="icon">Account</a></li>
+        <li><a href="{{ url_for('add_plant_page') }}"><img src="{{ url_for('static', filename='images/building/add_icon.png')}}" class="icon">Add Plant</a></li>
+        <li><a href="#"><img src="{{ url_for('static', filename='images/building/past_plant_icon.png')}}" class="icon">Past Plants</a></li>
+        <li><a href="{{ url_for('delete_plant_page') }}"><img src="{{ url_for('static', filename='images/building/delete_icon.png')}}" class="icon">Delete Plant</a></li>
+
+      </ul>
+    </div>
+  </label>
+  <br>
+
+  <div class="container">
+    <input type="radio" name="slider" id="s1" checked>
+    <input type="radio" name="slider" id="s2">
+    <input type="radio" name="slider" id="s3">
+
+    <div class="cards">
+      
+      <label for="s1" id="slide1">
+        <div class="square">
+          <p class="title">Tomatoes</p>
+          <p class="surface" id="output_title">- Date: September 2, 2024</p>
+          <p class="surface">- Surface: 10km</p>
+          <div class="image"><img src="{{ url_for('static', filename='images/building/tomato.png')}}" alt="Tomatoes" height="140vh" ></div>
+        </div>
+      </label>
+
+      <label for="s2" id="slide2">
+        <div class="square">
+          <p class="title">Lettuce</p>
+          <p class="surface" id="output_title">- Date: October 21, 2024</p>
+          <p class="surface">- Surface: 5km</p>
+          <div class="image"><img src="{{ url_for('static', filename='images/building/lettuce.png')}}" alt="Lettuce" height="170vh" ></div>
+        </div>
+      </label>
+
+      <label for="s3" id="slide3">
+        <div class="square">
+          <p class="title">Potato</p>
+          <p class="surface" id="output_title">- Date: July 4, 2024</p>
+          <p class="surface">- Surface: 15km</p>
+          <div class="image"><img src="{{ url_for('static', filename='images/building/potato.png')}}" alt="Potato" height="220vh" ></div>
+        </div>
+      </label>
+
+    </div>
+
+  </div>
+
+  <div class="graphs-container">
+
+    <div  class="graphs" id="graph_slides1">
+
+      <p class="graph_title">Temperature Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/tomato_temperature_graph.png')}}" alt="No plant"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Illumination Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/tomato_illumination_graph.png')}}" alt="No plant"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Moisture Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/tomato_moisture_graph.png')}}" alt="No plant"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Humidity Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/tomato_moisture_graph.png')}}" alt="No plant"></div>
+
+    </div>
+
+    <div  class="graphs" id="graph_slides2">
+
+      <p class="graph_title">Temperature Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/lettuce_temperature_graph.png')}}" alt="graph"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Illumination Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/lettuce_illumination_graph.png')}}" alt="graph"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Moisture Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/lettuce_moisture_graph.png')}}" alt="graph"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Humidity Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/lettuce_humidity_graph.png')}}" alt="graph"></div>
+    
+    </div>
+    
+    <div  class="graphs" id="graph_slides3">
+
+      <p class="graph_title">Temperature Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/potato_temperature_graph.png')}}" alt="graph"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Illumination Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/potato_illumination_graph.png')}}" alt="graph"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Moisture Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/potato_moisture_graph.png')}}" alt="graph"></div>
+      <hr style="border: 2px solid white;">
+      <p class="graph_title">Humidity Graph</p>
+      <div class="graph_image"><img src="{{ url_for('static', filename='images/graphs/potato_humidity_graph.png')}}" alt="graph"></div>
+    
+    </div>
+
+  </div>
+
+  <script>
+    const contentElements = document.querySelectorAll('.square, .graphs'); // Select both content sections
+    const radioButtons = document.querySelectorAll('input[name="slider"]');
+  
+    radioButtons.forEach(radioButton => {
+      radioButton.addEventListener('change', () => {
+        const selectedId = radioButton.id;  // Get the ID of the clicked radio button
+  
+        contentElements.forEach(content => {
+          const contentId = content.id; // Get the ID of the content element
+          if (contentId && contentId.startsWith(`graph_slide${selectedId}`)) {
+            content.style.display = 'block'; // Show content matching the ID pattern
+          } else if (contentId && contentId.startsWith(`graph_slide`)) {
+            content.style.display = 'none'; // Hide other content sections
+          }
+        });
+      });
+    });
+  </script>

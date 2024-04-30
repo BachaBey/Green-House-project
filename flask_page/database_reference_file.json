@@ -1,0 +1,26 @@
+{
+    "carrot": {
+        "temperature": 10,
+        "illumination": 15,
+        "moisture": 20,
+        "humidity": 18
+    },
+    "lettuce": {
+        "temperature": 10,
+        "illumination": 5,
+        "moisture": 2,
+        "humidity": 18
+    },
+    "tomato": {
+        "temperature": 10,
+        "illumination": 5,
+        "moisture": 2,
+        "humidity": 18
+    },
+    "orange": {
+        "temperature": 1,
+        "illumination": 1,
+        "moisture": 1,
+        "humidity": 1
+    }
+}

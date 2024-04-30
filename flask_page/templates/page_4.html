@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/page_4.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGreen</title>
+</head>
+<body>
+
+    <label for="menu-toggle" >
+        <input type="checkbox" class="side_bar" id="menu-toggle">
+        <div class="toggle">
+        <img src="{{ url_for('static', filename='images/building/menu_white_icon.png')}}" alt="menu icon" class="icon_white_nav_bar">
+        </div>
+
+        <img src="{{ url_for('static', filename='images/building/menu_green_icon.png')}}" alt="menu icon" class="icon_green_nav_bar">
+        <div class="slide">
+        <h1></h1>
+        <ul>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/building/account_icon.png')}}" class="icon">Account</a></li>
+            <li><a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/building/home_icon.png')}}" class="icon">Home</a></li>
+            <li><a href="#"><img src="{{ url_for('static', filename='images/building/past_plant_icon.png')}}" class="icon">Past Plants</a></li>
+            <li><a href="{{ url_for('delete_plant_page') }}"><img src="{{ url_for('static', filename='images/building/delete_icon.png')}}" class="icon">Delete Plant</a></li>
+    
+        </ul>
+        </div>
+    </label>
+
+    
+    <div class="top">
+        <label class="text">What plant do you want to grow</label>
+        <div class="search_input">
+            <input type="text" class="input" name="plant name" id="plant_name_input" placeholder="Plant name" value="{{name}}">
+                
+        </div>  
+    </div>
+    <br>
+    <form action="/save_data_page4" method="POST">
+        <div class="infos_percents">
+            <div class="infos">
+                <p class="info">Light:</p>
+                <p class="info">Moisture:</p>
+                <p class="info">Humidity:</p>
+                <p class="info">Temperature:</p>
+                <p class="info">Greenhouse Number:</p>
+            </div>
+
+            <div class="percents">
+                <div><input  class="percents_input" name="light_input" type="text" placeholder=" %"></div>
+                <div><input  class="percents_input" name="moisture_input" type="text" placeholder=" %"></div>
+                <div><input  class="percents_input" name="humidity_input" type="text" placeholder=" %"></div>
+                <div><input  class="percents_input" name="temperature_input" type="text" placeholder=" %"></div>
+                <input class="percents_input" name="greenhouse_input" type="text" placeholder={{greenhouse}}>
+            </div> 
+        </div>
+        <br>
+        <div class="use_add">
+            <button class="use">Use</button>
+        </div>
+    </form>
+    
+    
+  
+</body>
+</html>

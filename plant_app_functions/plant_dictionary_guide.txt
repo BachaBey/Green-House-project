@@ -1,0 +1,15 @@
+-Check the presence of a plant in our data base: 
+        search_plant(plant's name)--> True/False
+
+-Get plant's information: 
+        plant_info(plant's name)-->dictionary containing data with order(name,temperature,illumination,moisture,humidity)
+        note: if you want to get a specific data just write for example: plant_info("plant's name")["temperature"]
+
+-add_plant and its information to the database:
+        add_plant(name,temperature,illumination,moisture,humidity)-->no return
+
+-remove plant from the database:
+        remove_plant(plant's name)-->no return
+
+-to clear all the data base:
+        delete_all()-->no return

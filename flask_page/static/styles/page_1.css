@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.left-side{
+    background: linear-gradient(to bottom right,#8bc743, #0bb294);
+    width:32%;
+    height: 100%;
+    position: fixed;
+    left:0;
+}
+
+.right-side{
+    background-color: white;
+    width: 68%;
+    height: 100%;
+    position: fixed;
+    right:0;
+}
+
+.title{
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    margin:0 ;
+    color: white;
+    font-size:6vw;
+    line-height:5vh;
+}
+
+.sign-up{
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 12vw;
+    height: 3vw;
+    font-size: 2vw;
+    font-family: "Crimson Text", serif;
+    position: center;
+    border-radius: 1.5vw;
+    border-width: 0.25vw;
+    cursor:pointer;
+}
+
+.btn{
+    text-align: center;
+}
+
+.sign-in{
+    text-align: center;
+    top:40vh;
+    left:20.35vw;
+    position: absolute;
+    transform:translateY(-50%);
+    
+}
+
+.input{
+    width: 60vh;
+    border-radius: 0;
+    margin-bottom: 1vw;
+    border: 0;
+    background-color:rgba(230, 235, 233, 0.91);
+    height: 4vw;
+    font-size: x-large;
+}
+
+.sign{
+    color: rgba(40, 183, 130, 1);
+    font-family: "Crimson Text", serif;
+    font-size: 6vw;
+    margin-bottom: 0;
+}
+
+input::placeholder{
+    font-size: 1.5vw;
+    padding-left: 1vw;
+
+}
+
+.sign-in-btn{
+
+    margin-top: 2vw;
+    border: 0;
+    background-color: rgba(40, 183, 130, 1);
+    color: white;
+    width: 12vw;
+    height: 3vw;
+    font-size: 2vw;
+    font-family: "Crimson Text", serif;
+    position: center;
+    border-radius: 1.5vw;
+    cursor:pointer;
+}
+.sign-in-btn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4)
+
+}
+.pass{
+    color: rgba(40, 183, 130, 1);
+    text-align: center;
+    margin-top: 90vh;
+}
+a:link, a:visited{
+    color: rgba(40, 183, 130, 1);
+    font-weight: bold;
+}
