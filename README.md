@@ -1,5 +1,5 @@
 Project Overview:
-  -This peoject is an IoT project
+  -This is an IoT project
   -This project is a web application designed to monitor and control greenhouse conditions for optimal plant growth. It utilizes sensors to gather environmental data and actuators to manage factors like    irrigation and lighting.
 
 Features:
